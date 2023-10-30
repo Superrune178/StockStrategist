@@ -1,0 +1,27 @@
+Go to project directory then - 
+
+Create a virtual environment:
+python -m venv myenv
+
+Activate virtual environment:
+myenv\Scripts\activate
+
+install dependencies:
+pip install -r requirements.txt
+
+
+
+
+django
+django-crispy-forms
+yfinance
+plotly
+scikit-learn
+keras
+--target . tensorflow
+ta
+crispy-bootstrap4
+
+
+TestUser123
+*G3Zd54(.ys8(n
