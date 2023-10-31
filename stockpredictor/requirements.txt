@@ -6,10 +6,10 @@ beautifulsoup4==4.12.2
 cachetools==5.3.2
 certifi==2023.7.22
 charset-normalizer==3.3.1
-crispy-bootstrap4==2023.1
+crispy-bootstrap4==2022.*
 distlib==0.3.6
-Django==4.2.6
-django-crispy-forms==2.1
+Django==4.1.*
+django-crispy-forms==2.0.*
 django-extensions==3.2.1
 django-filter==22.1
 djangorestframework==3.14.0
@@ -19,7 +19,7 @@ flatbuffers==23.5.26
 frozendict==2.3.8
 gast==0.5.4
 google-auth==2.23.3
-google-auth-oauthlib==0.4.1
+google-auth-oauthlib>=0.5,<1.1
 google-pasta==0.2.0
 grpcio==1.59.0
 gunicorn==21.2.0
@@ -64,7 +64,6 @@ tensorboard==2.14.1
 tensorboard-data-server==0.7.2
 tensorflow==2.14.0
 tensorflow-estimator==2.14.0
-tensorflow-intel==2.14.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
 threadpoolctl==3.2.0

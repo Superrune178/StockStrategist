@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = "staticfiles"
+STATIC_ROOT = os.path.join(BASE_DIR, 'stockpredictor', 'staticfiles')
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
